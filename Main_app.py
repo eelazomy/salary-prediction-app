@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 import streamlit as st
 #======================
-df=pd.read_csv(r"C:\Users\smc\Desktop\projecs\Salary prediction system\Salary Data.csv")
+df=pd.read_csv("Salary Data.csv")
 #print(df.head())
 #=====================
 df["Age"]=df["Age"].fillna(df["Age"].mean())
